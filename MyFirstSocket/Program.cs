@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyFirstSocket
+﻿namespace MyFirstSocket
 {
     class Program
     {
         static void Main(string[] args)
         {
+            MySocketServer server = new MySocketServer();
         }
     }
 }
